@@ -1,0 +1,1169 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+body {
+  margin: 0px;
+  padding: 0;
+  font-family: sans-serif;
+
+  background: linear-gradient(to bottom, #ffffff00, #173529),
+    url(/mc2yi1zlish31.jpg);
+
+  background-repeat: no-repeat;
+  background-size: 1920px 1080px;
+  background-color: #173529;
+  width: 100%;
+}
+
+.ul-navbar {
+  display: flex;
+  list-style: none;
+
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.ul-navbar a {
+  font-size: 20px;
+
+  font-family: sans-serif;
+  text-decoration: none;
+
+  margin-left: 25px;
+  color: #494747;
+}
+
+.ul-navbar a:hover {
+  color: #3c7262;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 70px;
+
+  width: 50px;
+  display: flex;
+}
+
+.profile {
+  width: 45px;
+  position: absolute;
+
+  top: 20px;
+  right: 70px;
+  left: auto;
+}
+
+/* navbar kanan */
+.navbar-kanan {
+  margin-left: auto;
+  margin-right: 75px;
+}
+
+.ul-navbar-kanan {
+  list-style: none;
+  display: flex;
+}
+
+.point a {
+  font-family: fantasy;
+  font-size: 20px;
+
+  color: orangered;
+  position: absolute;
+  right: 150px;
+}
+
+.point a:hover {
+  color: rgb(70, 100, 29);
+}
+
+/* content */
+
+.container-content h1 {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  color: whitesmoke;
+  font-family: roboto condensed;
+  margin-top: 150px;
+  margin-bottom: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.paragraph-1 {
+  color: white;
+  font-size: 20px;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+/* Learn More */
+
+.button {
+  text-decoration: none;
+  font-size: 20px;
+  color: orangered;
+  padding: 10px;
+  background-color: rgb(245, 245, 245);
+  border: 3px solid whitesmoke;
+  border-radius: 5px;
+
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 200px;
+  margin-top: 75px;
+
+  font-family: fantasy;
+}
+.button::before,
+.button::after {
+  content: " ";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  border: inherit;
+  transition: all 0.5s;
+}
+.button::before {
+  top: -15px;
+  left: -15px;
+  border-width: 3px 0 0 3px;
+}
+.button::after {
+  bottom: -15px;
+  right: -15px;
+  border-width: 0 3px 3px 0;
+}
+.button:hover::before,
+.button:hover::after {
+  width: calc(100% + 27px);
+  height: calc(100% + 27px);
+}
+
+/* button end */
+
+/* SELAMATKAN BUMI KITA */
+@import url("https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap");
+
+.container-youtube {
+  text-align: center;
+}
+
+.youtube-video {
+  aspect-ratio: 16/9;
+  width: 80%;
+}
+
+/* .wrapper {
+  position: relative;
+  margin-top: 200px;
+  height: 540px;
+  width: 63.1%;
+  perspective: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 0px;
+
+  background-color: rgba(211, 255, 211, 0.349);
+}
+.wrapper .flip-card {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  background: #173529;
+  transform-style: preserve-3d;
+  transition: all 1s ease-in-out;
+}
+.wrapper:hover .flip-card {
+  transform: rotateY(180deg);
+}
+.flip-card .card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  background: #173529;
+  border-top: 2px solid #173529;
+  border-left: 2px solid #173529;
+  box-shadow: 0 5px 10px #173529;
+  backface-visibility: hidden;
+  position: absolute;
+}
+.card span.circle,
+.card span.square {
+  height: 110px;
+  width: 110px;
+  border: 10px solid rgba(211, 255, 211, 0.349);
+}
+.card span.circle {
+  border-radius: 50%;
+}
+.card span.triangle {
+  position: relative;
+  height: 0;
+  width: 0;
+  border-right: 60px solid transparent;
+  border-left: 60px solid transparent;
+  border-bottom: 110px solid rgba(211, 255, 211, 0.349);
+  margin-right: 16px;
+}
+.card span.triangle::before {
+  content: "";
+  position: absolute;
+  height: 0;
+  width: 0;
+  left: -40px;
+  top: 20px;
+  border-right: 40px solid transparent;
+  border-left: 40px solid transparent;
+  border-bottom: 80px solid #173529;
+}
+.back.card {
+  transform: rotateY(180deg);
+} */
+
+/* end */
+
+/* stats */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+.counter-up {
+  background: url("images/bg-2.jpeg") no-repeat;
+  min-height: 50vh;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 0 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+}
+.counter-up::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: rgba(0, 0, 0, 0);
+}
+.counter-up .content {
+  z-index: 1;
+  position: relative;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.counter-up .content .box {
+  width: calc(25% - 30px);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  padding: 20px;
+}
+.content .box .icon {
+  font-size: 48px;
+  color: #e6e6e6;
+}
+.content .box .counter {
+  font-size: 50px;
+  font-weight: 500;
+  color: #f2f2f2;
+  font-family: sans-serif;
+}
+.content .box .text {
+  font-weight: 400;
+  color: #ccc;
+}
+@media screen and (max-width: 1036px) {
+  .counter-up {
+    padding: 50px 50px 0 50px;
+  }
+  .counter-up .content .box {
+    width: calc(50% - 30px);
+    margin-bottom: 50px;
+  }
+}
+@media screen and (max-width: 580px) {
+  .counter-up .content .box {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .wrapper {
+    padding: 20px;
+  }
+  .counter-up {
+    padding: 30px 20px 0 20px;
+  }
+}
+
+/* end */
+
+/* cards-1*/
+.container-card {
+  background-image: url(/Rectangle55.png);
+  background-size: 1350px;
+  width: 88.8%;
+  height: 600px;
+  margin-top: 250px;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-radius: 40px;
+  padding: 10px;
+  position: relative;
+}
+
+.card-below {
+  background-color: rgba(0, 0, 0, 0.544);
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  top: 400px;
+  left: 0px;
+  z-index: 1;
+}
+
+.card-below a {
+  font-size: 25px;
+
+  color: #fff;
+  align-items: center;
+  text-decoration: none;
+
+  padding: 100px;
+}
+
+/* card-2-left */
+.container-card-small-left {
+  background-image: url(/Rectangle61.png);
+  background-size: 750px;
+
+  border-radius: 40px;
+  width: 43%;
+  height: 850px;
+  margin-top: 30px;
+  margin-left: 5%;
+
+  position: relative;
+  display: inline-block;
+}
+
+.card-below-small-left {
+  background-color: rgba(0, 0, 0, 0.544);
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  top: 650px;
+  left: 0px;
+  z-index: 1;
+
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.card-below-small-left a {
+  font-size: 25px;
+
+  color: #fff;
+  align-items: center;
+  text-decoration: none;
+
+  padding: 100px;
+}
+
+/* card-2-right */
+.container-card-small-right {
+  background-image: url(/Rectangle62.png);
+  background-size: 750px;
+
+  border-radius: 40px;
+  width: 43%;
+  height: 850px;
+  margin-top: 30px;
+
+  left: 40px;
+  margin-right: 5%;
+  position: relative;
+  display: inline-block;
+}
+
+.card-below-small-right {
+  background-color: rgba(0, 0, 0, 0.544);
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  top: 650px;
+  left: 0px;
+  z-index: 1;
+
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.card-below-small-right a {
+  font-size: 25px;
+
+  color: #fff;
+  align-items: center;
+  text-decoration: none;
+
+  padding: 100px;
+}
+
+/* tiga-kiri */
+.container-card-tiga-kiri {
+  background-image: url(/Rectangle63.png);
+  background-size: 480px;
+
+  border-radius: 40px;
+  width: 27.4%;
+  height: 850px;
+  margin-top: 30px;
+  margin-left: 5%;
+
+  margin-right: auto;
+  position: relative;
+  float: left;
+}
+
+.card-below-tiga-kiri {
+  background-color: rgba(0, 0, 0, 0.544);
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  top: 650px;
+  left: 0px;
+  z-index: 1;
+
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.card-below-tiga-kiri a {
+  font-size: 25px;
+
+  color: #fff;
+  align-items: center;
+  text-decoration: none;
+
+  padding: 0px;
+}
+
+/* tiga-tengah */
+.container-card-tiga-tengah {
+  background-image: url(/Rectangle64.png);
+  background-size: 480px;
+
+  border-radius: 40px;
+  width: 27.4%;
+  height: 850px;
+  margin-top: 30px;
+  margin-left: 25px;
+
+  margin-right: 33px;
+  padding: 10px;
+  position: relative;
+  float: left;
+}
+
+.card-below-tiga-tengah {
+  background-color: rgba(0, 0, 0, 0.544);
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  top: 650px;
+  left: 0px;
+  z-index: 1;
+
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.card-below-tiga-tengah a {
+  font-size: 25px;
+
+  color: #fff;
+  align-items: center;
+  text-decoration: none;
+
+  padding: 0px;
+}
+
+/* tiga-kanan */
+.container-card-tiga-kanan {
+  background-image: url(/Rectangle65.png);
+  background-size: 480px;
+
+  border-radius: 40px;
+  width: 27.4%;
+  height: 850px;
+  margin-top: 30px;
+
+  margin-right: 5%;
+  padding: 10px;
+  position: relative;
+  float: left;
+}
+
+.card-below-tiga-kanan {
+  background-color: rgba(0, 0, 0, 0.544);
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  top: 650px;
+  left: 0px;
+  z-index: 1;
+
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+.card-below-tiga-kanan a {
+  font-size: 25px;
+
+  color: #fff;
+  align-items: center;
+  text-decoration: none;
+
+  padding: 0px;
+}
+
+/* end */
+
+/* footer */
+.footer {
+  margin-top: 1200px;
+  height: 700px;
+  background-color: #173529;
+}
+
+.footer h1 {
+  margin-top: 50px;
+  color: white;
+  text-align: right;
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: 5%;
+
+  margin-top: 80px;
+  padding: 0px;
+}
+
+.footer p {
+  color: white;
+  text-align: right;
+  font-family: sans-serif;
+  font-size: 20px;
+
+  margin-left: auto;
+  margin-right: 5%;
+
+  padding: 0px;
+}
+
+/* sosmed */
+.container-sosmed {
+  margin-right: 2%;
+  padding-bottom: 100px;
+}
+
+.sosmed {
+  background-color: yellowgreen;
+  width: 50px;
+  height: 50px;
+
+  margin-right: 40px;
+  border-radius: 10px;
+
+  float: right;
+}
+
+/* end */
+
+/* logo-footer */
+
+.logo-footer {
+  float: left;
+  margin-left: 5%;
+}
+
+/* .container-content {
+  background-color: #a3b18a;
+
+  height: 700px;
+  width: 1800px;
+
+  border-radius: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+}
+
+.container-content p {
+  height: 500px;
+  width: 700px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+/* responsive */
+/* navbar */
+
+/* New styles for screens with a max width of 767px (hamburger menu) */
+
+/* responsive */
+
+/* end */
+
+/* Default styling for .ex (kondisi biasa) */
+
+/* cards-1*/
+.bisalah {
+  display: none;
+}
+
+.bisalahya {
+  display: none;
+}
+
+.bisalahya a {
+  display: none;
+}
+
+@media only screen and (max-width: 767px) {
+  /* responsive */
+  /* cards-1*/
+  .bisalah-1 {
+    display: block;
+
+    background-image: url(/Rectangle55.png);
+    background-size: 1350px;
+    width: 88.8%;
+    height: 200px;
+    margin-top: 120px;
+    margin-bottom: 0px;
+
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 40px;
+    padding: 0px;
+    position: relative;
+
+  }
+
+  .bisalah-2 {
+    display: block;
+
+    background-image: url(/Rectangle61.png);
+    background-size: 500px;
+    width: 88.8%;
+    height: 200px;
+    margin-top: 120px;
+    margin-bottom: 0px;
+
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 40px;
+    padding: 0px;
+    position: relative;
+
+  }.bisalah-3 {
+    display: block;
+
+    background-image: url(/Rectangle62.png);
+    background-size: 500px;
+    width: 88.8%;
+    height: 200px;
+    margin-top: 120px;
+    margin-bottom: 0px;
+
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 40px;
+    padding: 0px;
+    position: relative;
+
+  }.bisalah-4 {
+    display: block;
+
+    background-image: url(/Rectangle63.png);
+    background-size: 500px;
+    width: 88.8%;
+    height: 200px;
+    margin-top: 120px;
+    margin-bottom: 0px;
+
+
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 40px;
+    padding: 0px;
+    position: relative;
+
+  }
+
+  .bisalahya {
+    display: block;
+
+    background-color: rgba(0, 0, 0, 0.544);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    z-index: 1;
+  }
+
+  .bisalahya a {
+    display: block;
+
+    font-size: 16px;
+
+    color: #fff;
+    align-items: center;
+    text-decoration: none;
+
+    padding: 0px;
+  }
+
+  /* cards-1*/
+  .container-card {
+    display: none;
+  }
+
+  .card-below {
+    display: none;
+  }
+
+  .card-below a {
+    display: none;
+  }
+
+  /* card-2-left */
+  .container-card-small-left {
+    display: none;
+  }
+
+  .card-below-small-left {
+    display: none;
+  }
+
+  .card-below-small-left a {
+    display: none;
+  }
+
+  /* card-2-right */
+  .container-card-small-right {
+    display: none;
+  }
+
+  .card-below-small-right {
+    display: none;
+  }
+
+  .card-below-small-right a {
+    display: none;
+  }
+
+  /* tiga-kiri */
+  .container-card-tiga-kiri {
+    display: none;
+  }
+
+  .card-below-tiga-kiri {
+    display: none;
+  }
+
+  .card-below-tiga-kiri a {
+    display: none;
+  }
+
+  /* tiga-tengah */
+  .container-card-tiga-tengah {
+    display: none;
+  }
+
+  .card-below-tiga-tengah {
+    display: none;
+  }
+
+  .card-below-tiga-tengah a {
+    display: none;
+  }
+
+  /* tiga-kanan */
+  .container-card-tiga-kanan {
+    display: none;
+  }
+
+  .card-below-tiga-kanan {
+    display: none;
+  }
+
+  .card-below-tiga-kanan a {
+    display: none;
+  }
+
+  /* end */
+
+  .ul-navbar {
+    display: flex;
+    list-style: none;
+
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 5%;
+
+    padding: 0px;
+  }
+
+  .ul-navbar a {
+    font-size: 16px;
+
+    font-family: sans-serif;
+    text-decoration: none;
+
+    margin-left: 12px;
+    color: #494747;
+  }
+
+  .ul-navbar a:hover {
+    color: #3c7262;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .profile {
+    width: 40px;
+    position: absolute;
+
+    top: 10px;
+    right: 3.2%;
+    left: auto;
+  }
+
+  /* navbar kanan */
+  .navbar-kanan {
+    margin-left: auto;
+    margin-right: 75px;
+  }
+
+  .ul-navbar-kanan {
+    list-style: none;
+    display: flex;
+  }
+
+  .point a {
+    font-family: fantasy;
+    font-size: 16px;
+
+    color: orangered;
+    position: absolute;
+    right: 4.2%;
+    left: auto;
+    top: 55px;
+  }
+
+  .point a:hover {
+    color: rgb(70, 100, 29);
+  }
+  /* end */
+
+  /* content */
+
+  .container-content h1 {
+    font-size: 38px;
+    display: flex;
+    justify-content: center;
+    color: whitesmoke;
+    font-family: roboto condensed;
+    margin-top: 120px;
+    margin-bottom: 0px;
+    margin-left: 5%;
+    margin-right: 50px;
+  }
+
+  .paragraph-1 {
+    color: white;
+    font-size: 16px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    margin-top: 40px;
+
+    margin-left: 5%;
+  }
+  /* end */
+
+  /* Learn More */
+
+  .button {
+    text-decoration: none;
+    font-size: 20px;
+    color: orangered;
+    padding: 4px;
+    background-color: rgb(245, 245, 245);
+    border: 3px solid whitesmoke;
+    border-radius: 10px;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 140px;
+    margin-top: 120px;
+
+    font-family: fantasy;
+  }
+  .button::before,
+  .button::after {
+    content: " ";
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border: inherit;
+    transition: all 0.5s;
+  }
+  .button::before {
+    top: -15px;
+    left: -15px;
+    border-width: 3px 0 0 3px;
+  }
+  .button::after {
+    bottom: -15px;
+    right: -15px;
+    border-width: 0 3px 3px 0;
+  }
+  .button:hover::before,
+  .button:hover::after {
+    width: calc(100% + 27px);
+    height: calc(100% + 27px);
+  }
+
+  /* button end */
+
+  /* stats */
+  @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+  .counter-up {
+    background: url("images/bg-2.jpeg") no-repeat;
+    min-height: 50vh;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+  }
+  .counter-up::before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0);
+  }
+  .counter-up .content {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .counter-up .content .box {
+    width: calc(25% - 30px);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .content .box .icon {
+    font-size: 35px;
+    color: #e6e6e6;
+  }
+  .content .box .counter {
+    font-size: 35px;
+    font-weight: 300px;
+    color: #f2f2f2;
+    font-family: sans-serif;
+  }
+  .content .box .text {
+    font-weight: 200px;
+    color: #ccc;
+  }
+  @media screen and (max-width: 1036px) {
+    .counter-up {
+      padding: 50px 50px 0 50px;
+    }
+    .counter-up .content .box {
+      width: calc(50% - 30px);
+      margin-bottom: 15px;
+    }
+  }
+  @media screen and (max-width: 580px) {
+    .counter-up .content .box {
+      width: 100%;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    .wrapper {
+      padding: 20px;
+    }
+    .counter-up {
+      padding: 30px 20px 0 20px;
+    }
+  }
+
+  /* end */
+
+  /* responsive */
+  .container-card-responsive {
+    background-image: url(/Rectangle55.png);
+    background-size: 1350px;
+    width: 88.8%;
+    height: 200px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-radius: 40px;
+    padding: 10px;
+    position: relative;
+  }
+
+  .card-below-responsive {
+    background-color: rgba(0, 0, 0, 0.544);
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    height: 100px;
+    position: absolute;
+    top: 100px;
+    left: 0px;
+    z-index: 1;
+  }
+
+  .card-below-responsive h1 {
+    margin-top: -10px;
+    padding: 0px;
+    top: 0px;
+  }
+
+  .card-below-responsive a {
+    font-size: 18px;
+
+    color: #fff;
+    align-items: center;
+    text-decoration: none;
+
+    padding: 100px;
+  }
+  /* end */
+
+  /* footer */
+  .footer {
+    margin-top: 200px;
+    height: 515px;
+    background-color: #173529;
+  }
+
+  .footer h1 {
+    margin-top: 50px;
+    color: white;
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 26px;
+    margin-left: auto;
+    margin-right: 5%;
+
+    margin-top: 50px;
+    padding: 0px;
+  }
+
+  .footer p {
+    color: white;
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 16px;
+
+    margin-left: auto;
+    margin-right: 5%;
+
+    padding: 0px;
+  }
+
+  /* sosmed */
+  .container-sosmed {
+    padding-bottom: 70px;
+  }
+
+  .sosmed {
+    background-color: yellowgreen;
+    width: 40px;
+    height: 40px;
+
+    margin-right: 5%;
+    border-radius: 10px;
+
+    float: right;
+  }
+
+  .sosmed img {
+    width: 40px;
+  }
+
+  /* end */
+
+  /* logo-footer */
+
+  .logo-footer {
+    float: left;
+    margin-left: 5%;
+
+    width: 100px;
+  }
+  /* end */
+}

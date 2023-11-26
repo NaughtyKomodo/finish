@@ -1,0 +1,545 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+body {
+  margin: 0px;
+  padding: 0;
+  font-family: sans-serif;
+
+  background: linear-gradient(to bottom, #ffffff00, #173529), url(/bg-help.png);
+
+  background-repeat: no-repeat;
+  background-size: 1920px 1785px;
+  background-color: #173529;
+}
+
+.ul-navbar {
+  display: flex;
+  list-style: none;
+
+  margin-top: 30px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.ul-navbar a {
+  font-size: 20px;
+
+  font-family: sans-serif;
+  text-decoration: none;
+
+  margin-left: 25px;
+  color: #494747;
+}
+
+.ul-navbar a:hover {
+  color: #3c7262;
+}
+
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 70px;
+
+  width: 50px;
+  display: flex;
+}
+
+.profile {
+  width: 45px;
+  position: absolute;
+
+  top: 20px;
+  right: 70px;
+  left: auto;
+}
+
+/* navbar kanan */
+.navbar-kanan {
+  margin-left: auto;
+  margin-right: 75px;
+}
+
+.ul-navbar-kanan {
+  list-style: none;
+  display: flex;
+}
+
+.point a {
+  font-family: fantasy;
+  font-size: 20px;
+
+  color: orangered;
+  position: absolute;
+  right: 150px;
+}
+
+.point a:hover {
+  color: rgb(70, 100, 29);
+}
+
+/* content */
+
+.container-content {
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Radio+Canada:wght@300&display=swap");
+
+.container-content h1 {
+  font-size: 80px;
+  font-family: "Radio Canada", sans-serif;
+  display: flex;
+  margin-left: 80px;
+  color: rgba(0, 0, 0, 0.775);
+}
+
+/* end */
+
+.paragraph-1 {
+  color: rgba(0, 0, 0, 0.775);
+  font-family: "Radio Canada", sans-serif;
+  font-size: 25px;
+  display: flex;
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-right: 400px;
+  margin-left: 80px;
+}
+
+/* email */
+.container-email {
+  background-color: #a7c957;
+
+  margin-left: 80px;
+  border-radius: 10px;
+
+  margin-bottom: 500px;
+
+  width: 150px;
+}
+.email {
+  padding: 1px;
+  text-align: center;
+}
+
+.email p a {
+  text-decoration: none;
+
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.775);
+}
+
+/* container isi */
+.container-isi {
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.container-isi-kiri {
+  background-color: whitesmoke;
+  width: 30%;
+  height: auto;
+
+  margin-right: auto;
+  border-radius: 20px;
+  margin-top: 50px;
+
+}
+
+.container-isi-tengah {
+  background-color: whitesmoke;
+  width: 30%;
+  height: auto;
+
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  margin-top: 50px;
+
+}
+
+.container-isi-kanan {
+    background-color: whitesmoke;
+    width: 30%;
+    height: auto;
+  
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+    margin-top: 50px;
+  
+  }
+
+/* faq-1 */
+.icon-faq {
+  background-color: #a7c957;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  
+}
+
+.icon-faq img {
+  width: 100px;
+
+  position: absolute;
+
+  padding: 20px 0px 0px 20px;
+  display: in;
+}
+
+.icon-faq p {
+
+  font-size: 3vh;
+  margin-top: 0px;
+  padding: 15px;
+
+  margin-bottom: 0px;
+}
+
+.faq-below {
+  font-size: 20px;
+  padding: 10px;
+
+}
+
+/* end */
+.paragraph-2 {
+  color: #f7c59f;
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.content-kiri {
+  background-color: whitesmoke;
+  height: 1000px;
+  width: 500px;
+  border-radius: 20px;
+
+  margin-left: 80px;
+  margin-top: 800px;
+  padding: 10px;
+
+  font-size: 20px;
+}
+
+.content-kanan {
+  background-color: whitesmoke;
+  height: 800px;
+  width: 500px;
+  border-radius: 20px;
+
+  margin-right: 80px;
+  margin-left: auto;
+  margin-top: 400px;
+  padding: 10px;
+
+  font-size: 20px;
+}
+
+/* footer */
+.footer {
+  margin-top: 1000px;
+  height: 700px;
+  background-color: #173529;
+}
+
+.footer h1 {
+  margin-top: 50px;
+  color: white;
+  text-align: right;
+  font-family: sans-serif;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: 5%;
+
+  margin-top: 80px;
+  padding: 0px;
+}
+
+.footer p {
+  color: white;
+  text-align: right;
+  font-family: sans-serif;
+  font-size: 20px;
+
+  margin-left: auto;
+  margin-right: 5%;
+
+  padding: 0px;
+}
+
+/* sosmed */
+.container-sosmed {
+  margin-right: 2%;
+  padding-bottom: 100px;
+}
+
+.sosmed {
+  background-color: yellowgreen;
+  width: 50px;
+  height: 50px;
+
+  margin-right: 40px;
+  border-radius: 10px;
+
+  float: right;
+}
+
+/* end */
+
+/* logo-footer */
+
+.logo-footer {
+  float: left;
+  margin-left: 5%;
+}
+
+/* .container-content {
+      background-color: #a3b18a;
+    
+      height: 700px;
+      width: 1800px;
+    
+      border-radius: 30px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 40px;
+    }
+    
+    .container-content p {
+      height: 500px;
+      width: 700px;
+    
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    } */
+
+/* responsive */
+
+@media only screen and (max-width: 767px) {
+  .ul-navbar {
+    display: flex;
+    list-style: none;
+
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: 5%;
+
+    padding: 0px;
+  }
+
+  .ul-navbar a {
+    font-size: 16px;
+
+    font-family: sans-serif;
+    text-decoration: none;
+
+    margin-left: 12px;
+    color: #494747;
+  }
+
+  .ul-navbar a:hover {
+    color: #3c7262;
+  }
+
+  .logo {
+    display: none;
+  }
+
+  .profile {
+    width: 40px;
+    position: absolute;
+
+    top: 10px;
+    right: 3.2%;
+    left: auto;
+  }
+
+  /* navbar kanan */
+  .navbar-kanan {
+    margin-left: auto;
+    margin-right: 75px;
+  }
+
+  .ul-navbar-kanan {
+    list-style: none;
+    display: flex;
+  }
+
+  .point a {
+    font-family: fantasy;
+    font-size: 16px;
+
+    color: orangered;
+    position: absolute;
+    right: 4.2%;
+    left: auto;
+    top: 55px;
+  }
+
+  .point a:hover {
+    color: rgb(70, 100, 29);
+  }
+  /* end */
+
+  /* footer */
+  .footer {
+    margin-top: 300px;
+    height: 515px;
+    background-color: #173529;
+  }
+
+  .footer h1 {
+    margin-top: 50px;
+    color: white;
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 26px;
+    margin-left: auto;
+    margin-right: 5%;
+
+    margin-top: 50px;
+    padding: 0px;
+  }
+
+  .footer p {
+    color: white;
+    text-align: right;
+    font-family: sans-serif;
+    font-size: 16px;
+
+    margin-left: auto;
+    margin-right: 5%;
+
+    padding: 0px;
+  }
+
+  /* sosmed */
+  .container-sosmed {
+    padding-bottom: 70px;
+  }
+
+  .sosmed {
+    background-color: yellowgreen;
+    width: 40px;
+    height: 40px;
+
+    margin-right: 5%;
+    border-radius: 10px;
+
+    float: right;
+  }
+
+  .sosmed img {
+    width: 40px;
+  }
+
+  /* end */
+
+  /* logo-footer */
+
+  .logo-footer {
+    float: left;
+    margin-left: 5%;
+
+    width: 100px;
+  }
+  /* end */
+
+  /* content */
+
+  .container-content {
+  }
+
+  .container-content h1 {
+    font-size: 38px;
+    display: flex;
+
+    margin-top: 120px;
+    margin-left: 5%;
+    color: whitesmoke;
+  }
+
+  .paragraph-1 {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+
+    margin-top: 70px;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  /* container isi */
+  .container-isi {
+    background-color: whitesmoke;
+    width: 200px;
+    height: 300px;
+
+    margin-left: auto;
+    margin-right: 5%;
+    border-radius: 20px;
+    margin-top: 350px;
+  }
+
+  .container-isi p {
+    padding: 20px;
+
+    font-size: 16px;
+  }
+
+  /* end */
+  /* img */
+  .container-img {
+    margin-top: 0px;
+    margin-left: 5%;
+
+    padding-top: 75px;
+
+    float: left;
+  }
+
+  .container-img img {
+    width: 200px;
+    height: 200px;
+  }
+
+  /* end */
+
+  .content-kiri {
+    background-color: whitesmoke;
+    height: 1000px;
+    width: 500px;
+    border-radius: 20px;
+
+    margin-left: 80px;
+    margin-top: 800px;
+    padding: 10px;
+
+    font-size: 20px;
+  }
+
+  .content-kanan {
+    background-color: whitesmoke;
+    height: 800px;
+    width: 500px;
+    border-radius: 20px;
+
+    margin-right: 80px;
+    margin-left: auto;
+    margin-top: 400px;
+    padding: 10px;
+
+    font-size: 20px;
+  }
+  /* end */
+}

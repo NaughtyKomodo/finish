@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="/styles-documentation.css" />
+    <!-- carousel -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+    <!-- time line -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <div class="container-navbar">
+      <ul class="ul-navbar">
+        <li>
+          <a href="/index.html"><img src="/logo.png" alt="" class="logo" /></a>
+        </li>
+        <li><a href="/greening.html">Greening</a></li>
+        <li><a href="">Documentation</a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/help.html">Help</a></li>
+        <li>
+          <a href="/login.html"
+            ><img src="/127680259-modified.png" alt="" class="profile"
+          /></a>
+        </li>
+
+        <div class="navbar-kanan">
+          <ul class="ul-navbar-kanan">
+            <li class="point"><a href="/point.html">Point</a></li>
+          </ul>
+        </div>
+      </ul>
+    </div>
+
+    <!-- hamburgere -->
+    <!-- Hamburger button -->
+    <div class="hamburger" onclick="toggleMenu()">
+      <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div>
+    </div>
+    <!-- end -->
+
+    <!-- caraousel -->
+    <div class="wrapper">
+      <div class="carousel owl-carousel">
+        <div class="card card-1">‎</div>
+        <div class="card card-2">‎</div>
+        <div class="card card-3">‎</div>
+        <div class="card card-4">‎</div>
+        <div class="card card-5">‎</div>
+      </div>
+    </div>
+    <!-- end -->
+
+    <!-- time Line -->
+    <div class="wrapper-timeline">
+      <div class="center-line">
+        <a href="#" class="scroll-icon"><i class="fas fa-caret-up"></i></a>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="icon fas fa-home"></i>
+          <div class="details">
+            <span class="title">Planning</span>
+            <span>1st Jan 2024</span>
+          </div>
+          <p>
+            Tahap perencanaan mencakup identifikasi area, pemilihan jenis pohon,
+            dan sumber daya yang dibutuhkan.
+          </p>
+          <div class="bottom">
+            <a href="#">Read more</a>
+            <i>- Lingkar Hijau Team</i>
+          </div>
+        </section>
+      </div>
+      <div class="row row-2">
+        <section>
+          <i class="icon fas fa-star"></i>
+          <div class="details">
+            <span class="title">Site Preparation</span>
+            <span>2nd Februari 2024</span>
+          </div>
+          <p>
+            Tahap persiapan lahan mencakup pembersihan, penyiapan lahan, dan
+            infrastruktur.
+          </p>
+          <div class="bottom">
+            <a href="#">Read more</a>
+            <i>- Lingkar Hijau Team</i>
+          </div>
+        </section>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="icon fas fa-rocket"></i>
+          <div class="details">
+            <span class="title">Tree Planning</span>
+            <span>3rd March 2024</span>
+          </div>
+          <p>
+            Penanaman bibit pohon sesuai dengan desain yang telah disusun dan
+            perawatan bibit seperti penyiraman, pemupukan, dan perlindungan dari
+            hama penyakit.
+          </p>
+          <div class="bottom">
+            <a href="#">Read more</a>
+            <i>- Lingkar Hijau Team</i>
+          </div>
+        </section>
+      </div>
+      <div class="row row-2">
+        <section>
+          <i class="icon fas fa-globe"></i>
+          <div class="details">
+            <span class="title">Maintenance and Care</span>
+            <span>4th May 2024</span>
+          </div>
+          <p>
+            Tahap pemeliharaan dan perawatan pohon secara rutin dan terjadwal
+            setelah penananaman, penyiraman, pemupukan dan anti-hama.
+          </p>
+          <div class="bottom">
+            <a href="#">Read more</a>
+            <i>- Lingkar Hijau Team</i>
+          </div>
+        </section>
+      </div>
+      <div class="row row-1">
+        <section>
+          <i class="icon fas fa-paper-plane"></i>
+          <div class="details">
+            <span class="title">Monitoring Evaluation</span>
+            <span>5th June 2024</span>
+          </div>
+          <p>
+            Tahap monitoring dan evaluasi untuk memantau keberhasilan proyek
+            reboisasi.
+          </p>
+          <div class="bottom">
+            <a href="#">Read more</a>
+            <i>- Lingkar Hijau Team</i>
+          </div>
+        </section>
+      </div>
+      <div class="row row-2">
+        <section>
+          <i class="icon fas fa-map-marker-alt"></i>
+          <div class="details">
+            <span class="title">Community Engagement and Education</span>
+            <span>6th July 2024</span>
+          </div>
+          <p>
+            Pendekatan pendidikan dan partisipasi masyarakat untuk meningkatkan
+            kesadaran dan keterlibatan komunitas dalam menjaga lingkungan.
+          </p>
+          <div class="bottom">
+            <a href="#">Read more</a>
+            <i>- Lingkar Hijau Team</i>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <!-- end -->
+
+    <!-- footer -->
+    <div class="footer">
+      <h1>About</h1>
+      <p>
+        <a href="/about.html" style="text-decoration: none; color: white"
+          >Who We Are</a
+        >
+      </p>
+      <p>
+        <a href="/greening.html" style="text-decoration: none; color: white"
+          >Vision</a
+        >
+      </p>
+      <p>
+        <a href="/greening.html" style="text-decoration: none; color: white"
+          >Mission</a
+        >
+      </p>
+
+      <h1>Get Invoved</h1>
+      <p>
+        <a href="/donate1.html" style="text-decoration: none; color: white"
+          >Donate</a
+        >
+      </p>
+      <p>
+        <a
+          href="/documentation.html"
+          style="text-decoration: none; color: white"
+          >Documentation</a
+        >
+      </p>
+      <p>
+        <a href="/help.html" style="text-decoration: none; color: white"
+          >Contact Us</a
+        >
+      </p>
+
+      <h1>Follow Us</h1>
+      <a href="">
+        <img src="/logo-below.png" alt="" class="logo-footer" />
+      </a>
+      <p>
+        Stay informed on how we hold accountable <br />
+        those who break our environmental.
+      </p>
+    </div>
+
+    <!-- sosmed -->
+    <div class="container-sosmed">
+      <div class="sosmed">
+        <a href="https://www.facebook.com/zuck/">
+          <img src="/facebook.png" alt="" srcset="" style="padding: 12.5px" />
+        </a>
+      </div>
+      <div class="sosmed">
+        <a href="https://twitter.com/">
+          <img src="/x.png" alt="" srcset="" style="padding: 12.5px" />
+        </a>
+      </div>
+      <div class="sosmed">
+        <a href="https://www.instagram.com/">
+          <img src="/instaram.png" alt="" srcset="" style="padding: 12.5px" />
+        </a>
+      </div>
+    </div>
+    <!-- end -->
+
+    <script>
+      function toggleMenu() {
+        var navbar = document.querySelector(".ul-navbar");
+        navbar.classList.toggle("show");
+      }
+
+      //   carousel
+      $(".carousel").owlCarousel({
+        margin: 20,
+        loop: true,
+        autoplay: true,
+        autoplayTimeout: 2000,
+        autoplayHoverPause: true,
+        responsive: {
+          0: {
+            items: 1,
+            nav: false,
+          },
+          600: {
+            items: 2,
+            nav: false,
+          },
+          1000: {
+            items: 3,
+            nav: false,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
